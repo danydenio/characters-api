@@ -66,7 +66,6 @@ class ViewController: UIViewController {
         navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .cancel, target: self, action: #selector(btnCancelEditPressed))
         tableView.setEditing(editable, animated: true)
         navigationController?.setToolbarHidden(!editable, animated: true)
-        
     }
     @IBAction func btnCancelEditPressed(_ sender: UIButton) {
         editable = editable ? false : true
@@ -108,18 +107,14 @@ extension ViewController: UITableViewDataSource {
                 cell.backgroundColor = UIColor(hue: 160/360, saturation: 5/100, brightness: 86/100, alpha: 1.0)
             } else {
                 cell.backgroundColor = UIColor(red: 212/255, green: 216/255, blue: 216/255, alpha: 1.0) /* #d4d8d8 */
-
             }
-            
             cell.binModel(ModelEntity: personsArray[indexPath.row])
             return cell
         }
         return UITableViewCell()
     }
 }
-
 //-- MARK Delete
-
 extension ViewController {
     @objc func deletePerson(_ sender: UIButton) {
         if let arrayDelete = tableView.indexPathsForSelectedRows?.sorted(by: >) {

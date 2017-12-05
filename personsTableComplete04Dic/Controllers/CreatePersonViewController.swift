@@ -30,11 +30,7 @@ class CreatePersonViewController: UIViewController {
         arrayEducationDegrees = TypesOfEducationDegrees.allValues
         for button in txtFields {
             button.setBottomBorder()
-            //button.setLeftPaddingPoints(20)
-            //button.setRightPaddingPoints(20)
         }
-        
-        
     }
     func initialSetupToolbar() {
         navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .save, target: self, action: #selector(buttonSavePressed))
@@ -70,7 +66,6 @@ class CreatePersonViewController: UIViewController {
     
 }
 // MARK: - UITableViewDataSource
-
 extension CreatePersonViewController: UIPickerViewDelegate {
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
         return (arrayEducationDegrees[row] as? TypesOfEducationDegrees)?.rawValue

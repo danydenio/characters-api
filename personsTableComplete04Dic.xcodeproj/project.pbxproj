@@ -18,7 +18,7 @@
 		4DA5B1591FD5AECE00BD2B44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DA5B1571FD5AECE00BD2B44 /* Main.storyboard */; };
 		4DA5B15B1FD5AECE00BD2B44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DA5B15A1FD5AECE00BD2B44 /* Assets.xcassets */; };
 		4DA5B15E1FD5AECE00BD2B44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DA5B15C1FD5AECE00BD2B44 /* LaunchScreen.storyboard */; };
-		4DE4D6961FD6FFAB0034E641 /* IndexPath+Sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE4D6951FD6FFAB0034E641 /* IndexPath+Sorting.swift */; };
+		4DE4D6981FD727F20034E641 /* UITextField+Border.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE4D6971FD727F20034E641 /* UITextField+Border.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,7 +35,7 @@
 		4DA5B15A1FD5AECE00BD2B44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DA5B15D1FD5AECE00BD2B44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DA5B15F1FD5AECE00BD2B44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4DE4D6951FD6FFAB0034E641 /* IndexPath+Sorting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IndexPath+Sorting.swift"; sourceTree = "<group>"; };
+		4DE4D6971FD727F20034E641 /* UITextField+Border.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Border.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				4D7238AD1FD63AA500E45BD4 /* Enum+Array.swift */,
-				4DE4D6951FD6FFAB0034E641 /* IndexPath+Sorting.swift */,
+				4DE4D6971FD727F20034E641 /* UITextField+Border.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -198,10 +198,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DE4D6961FD6FFAB0034E641 /* IndexPath+Sorting.swift in Sources */,
 				4D7238AE1FD63AA500E45BD4 /* Enum+Array.swift in Sources */,
 				4D3CA49D1FD5D5B9002FD79F /* PersonViewController.swift in Sources */,
 				4D3CA4951FD5AF8F002FD79F /* Person.swift in Sources */,
+				4DE4D6981FD727F20034E641 /* UITextField+Border.swift in Sources */,
 				4DA5B1561FD5AECE00BD2B44 /* ViewController.swift in Sources */,
 				4D3CA4981FD5B190002FD79F /* PersonTableViewCell.swift in Sources */,
 				4D7238AC1FD6085800E45BD4 /* CreatePersonViewController.swift in Sources */,
