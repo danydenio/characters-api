@@ -7,14 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D3CA4951FD5AF8F002FD79F /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3CA4941FD5AF8F002FD79F /* Person.swift */; };
+		4D3CA4981FD5B190002FD79F /* PersonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3CA4961FD5B190002FD79F /* PersonTableViewCell.swift */; };
+		4D3CA4991FD5B190002FD79F /* PersonTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D3CA4971FD5B190002FD79F /* PersonTableViewCell.xib */; };
+		4D3CA49D1FD5D5B9002FD79F /* PersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3CA49C1FD5D5B9002FD79F /* PersonViewController.swift */; };
+		4D7238AC1FD6085800E45BD4 /* CreatePersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7238AB1FD6085800E45BD4 /* CreatePersonViewController.swift */; };
+		4D7238AE1FD63AA500E45BD4 /* Enum+Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7238AD1FD63AA500E45BD4 /* Enum+Array.swift */; };
 		4DA5B1541FD5AECE00BD2B44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA5B1531FD5AECE00BD2B44 /* AppDelegate.swift */; };
 		4DA5B1561FD5AECE00BD2B44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA5B1551FD5AECE00BD2B44 /* ViewController.swift */; };
 		4DA5B1591FD5AECE00BD2B44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DA5B1571FD5AECE00BD2B44 /* Main.storyboard */; };
 		4DA5B15B1FD5AECE00BD2B44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DA5B15A1FD5AECE00BD2B44 /* Assets.xcassets */; };
 		4DA5B15E1FD5AECE00BD2B44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DA5B15C1FD5AECE00BD2B44 /* LaunchScreen.storyboard */; };
+		4DE4D6961FD6FFAB0034E641 /* IndexPath+Sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE4D6951FD6FFAB0034E641 /* IndexPath+Sorting.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D3CA4941FD5AF8F002FD79F /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		4D3CA4961FD5B190002FD79F /* PersonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonTableViewCell.swift; sourceTree = "<group>"; };
+		4D3CA4971FD5B190002FD79F /* PersonTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonTableViewCell.xib; sourceTree = "<group>"; };
+		4D3CA49C1FD5D5B9002FD79F /* PersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonViewController.swift; sourceTree = "<group>"; };
+		4D7238AB1FD6085800E45BD4 /* CreatePersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePersonViewController.swift; sourceTree = "<group>"; };
+		4D7238AD1FD63AA500E45BD4 /* Enum+Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Enum+Array.swift"; sourceTree = "<group>"; };
 		4DA5B1501FD5AECE00BD2B44 /* personsTableComplete04Dic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = personsTableComplete04Dic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DA5B1531FD5AECE00BD2B44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4DA5B1551FD5AECE00BD2B44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +35,7 @@
 		4DA5B15A1FD5AECE00BD2B44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DA5B15D1FD5AECE00BD2B44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DA5B15F1FD5AECE00BD2B44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DE4D6951FD6FFAB0034E641 /* IndexPath+Sorting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IndexPath+Sorting.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +49,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D3CA4901FD5AF4F002FD79F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4D3CA4941FD5AF8F002FD79F /* Person.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4D3CA4911FD5AF56002FD79F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4D3CA4961FD5B190002FD79F /* PersonTableViewCell.swift */,
+				4D3CA4971FD5B190002FD79F /* PersonTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4D3CA4921FD5AF5B002FD79F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4DA5B1551FD5AECE00BD2B44 /* ViewController.swift */,
+				4D3CA49C1FD5D5B9002FD79F /* PersonViewController.swift */,
+				4D7238AB1FD6085800E45BD4 /* CreatePersonViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4D3CA4931FD5AF61002FD79F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				4D7238AD1FD63AA500E45BD4 /* Enum+Array.swift */,
+				4DE4D6951FD6FFAB0034E641 /* IndexPath+Sorting.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		4DA5B1471FD5AECE00BD2B44 = {
 			isa = PBXGroup;
 			children = (
@@ -54,14 +104,25 @@
 		4DA5B1521FD5AECE00BD2B44 /* personsTableComplete04Dic */ = {
 			isa = PBXGroup;
 			children = (
+				4D3CA4931FD5AF61002FD79F /* Helpers */,
+				4D3CA4921FD5AF5B002FD79F /* Controllers */,
+				4D3CA4911FD5AF56002FD79F /* Views */,
+				4D3CA4901FD5AF4F002FD79F /* Models */,
+				4DA5B1651FD5AEDC00BD2B44 /* New Group */,
 				4DA5B1531FD5AECE00BD2B44 /* AppDelegate.swift */,
-				4DA5B1551FD5AECE00BD2B44 /* ViewController.swift */,
 				4DA5B1571FD5AECE00BD2B44 /* Main.storyboard */,
 				4DA5B15A1FD5AECE00BD2B44 /* Assets.xcassets */,
 				4DA5B15C1FD5AECE00BD2B44 /* LaunchScreen.storyboard */,
 				4DA5B15F1FD5AECE00BD2B44 /* Info.plist */,
 			);
 			path = personsTableComplete04Dic;
+			sourceTree = "<group>";
+		};
+		4DA5B1651FD5AEDC00BD2B44 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +186,7 @@
 			files = (
 				4DA5B15E1FD5AECE00BD2B44 /* LaunchScreen.storyboard in Resources */,
 				4DA5B15B1FD5AECE00BD2B44 /* Assets.xcassets in Resources */,
+				4D3CA4991FD5B190002FD79F /* PersonTableViewCell.xib in Resources */,
 				4DA5B1591FD5AECE00BD2B44 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,7 +198,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DE4D6961FD6FFAB0034E641 /* IndexPath+Sorting.swift in Sources */,
+				4D7238AE1FD63AA500E45BD4 /* Enum+Array.swift in Sources */,
+				4D3CA49D1FD5D5B9002FD79F /* PersonViewController.swift in Sources */,
+				4D3CA4951FD5AF8F002FD79F /* Person.swift in Sources */,
 				4DA5B1561FD5AECE00BD2B44 /* ViewController.swift in Sources */,
+				4D3CA4981FD5B190002FD79F /* PersonTableViewCell.swift in Sources */,
+				4D7238AC1FD6085800E45BD4 /* CreatePersonViewController.swift in Sources */,
 				4DA5B1541FD5AECE00BD2B44 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
