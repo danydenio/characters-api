@@ -27,10 +27,10 @@ class PersonTableViewCell: UITableViewCell {
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
     }
-    func binModel(ModelEntity: Person) {
-        labelAge.text = "\(ModelEntity.age)"
-        labelName.text = ModelEntity.firstName + " " + ModelEntity.lastName
-        imageAvatar.image = ModelEntity.avatar
+    func binModel(ModelEntity: User) {
+        labelAge.text = ModelEntity.height
+        labelName.text = ModelEntity.name
+        imageAvatar.image = #imageLiteral(resourceName: "default")
         imageAvatar.clipsToBounds = true
         accessoryType = .disclosureIndicator
     }

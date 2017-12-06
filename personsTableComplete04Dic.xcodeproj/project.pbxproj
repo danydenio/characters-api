@@ -11,6 +11,10 @@
 		4D3CA4981FD5B190002FD79F /* PersonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3CA4961FD5B190002FD79F /* PersonTableViewCell.swift */; };
 		4D3CA4991FD5B190002FD79F /* PersonTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D3CA4971FD5B190002FD79F /* PersonTableViewCell.xib */; };
 		4D3CA49D1FD5D5B9002FD79F /* PersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3CA49C1FD5D5B9002FD79F /* PersonViewController.swift */; };
+		4D6CB0B51FD7AB49002E33AC /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6CB0B41FD7AB49002E33AC /* UserViewController.swift */; };
+		4D6CB0B71FD8399A002E33AC /* CreateUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6CB0B61FD8399A002E33AC /* CreateUserViewController.swift */; };
+		4D6CB0B91FD841EF002E33AC /* Date+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6CB0B81FD841EF002E33AC /* Date+String.swift */; };
+		4D6CB0BB1FD849D7002E33AC /* String+Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6CB0BA1FD849D7002E33AC /* String+Date.swift */; };
 		4D7238AC1FD6085800E45BD4 /* CreatePersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7238AB1FD6085800E45BD4 /* CreatePersonViewController.swift */; };
 		4D7238AE1FD63AA500E45BD4 /* Enum+Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7238AD1FD63AA500E45BD4 /* Enum+Array.swift */; };
 		4DA5B1541FD5AECE00BD2B44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA5B1531FD5AECE00BD2B44 /* AppDelegate.swift */; };
@@ -18,6 +22,10 @@
 		4DA5B1591FD5AECE00BD2B44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DA5B1571FD5AECE00BD2B44 /* Main.storyboard */; };
 		4DA5B15B1FD5AECE00BD2B44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DA5B15A1FD5AECE00BD2B44 /* Assets.xcassets */; };
 		4DA5B15E1FD5AECE00BD2B44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DA5B15C1FD5AECE00BD2B44 /* LaunchScreen.storyboard */; };
+		4DD4068F1FD7358900951F5A /* PrivateAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD4068E1FD7358900951F5A /* PrivateAPI.swift */; };
+		4DD406911FD735F000951F5A /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD406901FD735F000951F5A /* NetworkManager.swift */; };
+		4DD406931FD735FC00951F5A /* NetworkManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD406921FD735FC00951F5A /* NetworkManagerDelegate.swift */; };
+		4DD406961FD7370900951F5A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD406951FD7370900951F5A /* User.swift */; };
 		4DE4D6981FD727F20034E641 /* UITextField+Border.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE4D6971FD727F20034E641 /* UITextField+Border.swift */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +34,10 @@
 		4D3CA4961FD5B190002FD79F /* PersonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonTableViewCell.swift; sourceTree = "<group>"; };
 		4D3CA4971FD5B190002FD79F /* PersonTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonTableViewCell.xib; sourceTree = "<group>"; };
 		4D3CA49C1FD5D5B9002FD79F /* PersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonViewController.swift; sourceTree = "<group>"; };
+		4D6CB0B41FD7AB49002E33AC /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		4D6CB0B61FD8399A002E33AC /* CreateUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUserViewController.swift; sourceTree = "<group>"; };
+		4D6CB0B81FD841EF002E33AC /* Date+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+String.swift"; sourceTree = "<group>"; };
+		4D6CB0BA1FD849D7002E33AC /* String+Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Date.swift"; sourceTree = "<group>"; };
 		4D7238AB1FD6085800E45BD4 /* CreatePersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePersonViewController.swift; sourceTree = "<group>"; };
 		4D7238AD1FD63AA500E45BD4 /* Enum+Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Enum+Array.swift"; sourceTree = "<group>"; };
 		4DA5B1501FD5AECE00BD2B44 /* personsTableComplete04Dic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = personsTableComplete04Dic.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -35,6 +47,10 @@
 		4DA5B15A1FD5AECE00BD2B44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DA5B15D1FD5AECE00BD2B44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DA5B15F1FD5AECE00BD2B44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DD4068E1FD7358900951F5A /* PrivateAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivateAPI.swift; sourceTree = "<group>"; };
+		4DD406901FD735F000951F5A /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		4DD406921FD735FC00951F5A /* NetworkManagerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManagerDelegate.swift; sourceTree = "<group>"; };
+		4DD406951FD7370900951F5A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		4DE4D6971FD727F20034E641 /* UITextField+Border.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Border.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -53,6 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				4D3CA4941FD5AF8F002FD79F /* Person.swift */,
+				4DD406951FD7370900951F5A /* User.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -72,6 +89,8 @@
 				4DA5B1551FD5AECE00BD2B44 /* ViewController.swift */,
 				4D3CA49C1FD5D5B9002FD79F /* PersonViewController.swift */,
 				4D7238AB1FD6085800E45BD4 /* CreatePersonViewController.swift */,
+				4D6CB0B41FD7AB49002E33AC /* UserViewController.swift */,
+				4D6CB0B61FD8399A002E33AC /* CreateUserViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -81,8 +100,20 @@
 			children = (
 				4D7238AD1FD63AA500E45BD4 /* Enum+Array.swift */,
 				4DE4D6971FD727F20034E641 /* UITextField+Border.swift */,
+				4DD4068E1FD7358900951F5A /* PrivateAPI.swift */,
+				4DD406901FD735F000951F5A /* NetworkManager.swift */,
+				4D6CB0B81FD841EF002E33AC /* Date+String.swift */,
+				4D6CB0BA1FD849D7002E33AC /* String+Date.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		4D808ED51FD735450058B09A /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				4DD406921FD735FC00951F5A /* NetworkManagerDelegate.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 		4DA5B1471FD5AECE00BD2B44 = {
@@ -104,6 +135,7 @@
 		4DA5B1521FD5AECE00BD2B44 /* personsTableComplete04Dic */ = {
 			isa = PBXGroup;
 			children = (
+				4D808ED51FD735450058B09A /* Protocols */,
 				4D3CA4931FD5AF61002FD79F /* Helpers */,
 				4D3CA4921FD5AF5B002FD79F /* Controllers */,
 				4D3CA4911FD5AF56002FD79F /* Views */,
@@ -200,9 +232,17 @@
 			files = (
 				4D7238AE1FD63AA500E45BD4 /* Enum+Array.swift in Sources */,
 				4D3CA49D1FD5D5B9002FD79F /* PersonViewController.swift in Sources */,
+				4DD406911FD735F000951F5A /* NetworkManager.swift in Sources */,
+				4D6CB0B71FD8399A002E33AC /* CreateUserViewController.swift in Sources */,
+				4DD406931FD735FC00951F5A /* NetworkManagerDelegate.swift in Sources */,
 				4D3CA4951FD5AF8F002FD79F /* Person.swift in Sources */,
 				4DE4D6981FD727F20034E641 /* UITextField+Border.swift in Sources */,
+				4DD4068F1FD7358900951F5A /* PrivateAPI.swift in Sources */,
+				4D6CB0B91FD841EF002E33AC /* Date+String.swift in Sources */,
 				4DA5B1561FD5AECE00BD2B44 /* ViewController.swift in Sources */,
+				4D6CB0B51FD7AB49002E33AC /* UserViewController.swift in Sources */,
+				4DD406961FD7370900951F5A /* User.swift in Sources */,
+				4D6CB0BB1FD849D7002E33AC /* String+Date.swift in Sources */,
 				4D3CA4981FD5B190002FD79F /* PersonTableViewCell.swift in Sources */,
 				4D7238AC1FD6085800E45BD4 /* CreatePersonViewController.swift in Sources */,
 				4DA5B1541FD5AECE00BD2B44 /* AppDelegate.swift in Sources */,
